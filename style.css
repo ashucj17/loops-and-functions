@@ -1,0 +1,13 @@
+.container {
+  width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  text-align: center;
+  background-color: #7ff4ff;
+  color: rgba(1, 2, 20, 0.723);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  border: 1px solid #3bb9b1;
+  border-radius: 15px;
+  box-shadow: 17px 10px 15px #36a8b7ee;
+}
