@@ -26,6 +26,8 @@
 // let sub = (a, b) => a - b;
 // console.log(sub(21, 13));
 
+// loop examples
+
 // for (let i = 0; i <= 1000; i++) {
 //   console.log("Ashish", i);
 // }
@@ -46,6 +48,7 @@
 // } while (i <= 100);
 
 // logical operators
+
 // && and operator
 // let age = 18;
 // if (age >= 18 && age <= 60) {
@@ -64,3 +67,31 @@
 // let a = true;
 // let b = false;
 // console.log(!a);
+
+// ____Function practice___________
+// function myFunction(a, b) {
+//   return a * b;
+// }
+// console.log(myFunction(7, 7));/* direct wat or simple way */
+
+// let output = myFunction(8, 8); /* storing the output in an new veriable */
+// console.log(output);
+
+// function declaration
+
+// function greatings(name) {
+//   console.log(`Hello ${name}`);
+// }
+// greatings("Ashish");
+
+// function expresstion
+/*  creating a function using verables*/
+// let sqr = function (a, b) {
+//   console.log(a * b);
+// };
+// sqr(5, 7);
+
+let great = function (user) {
+  console.log(`hello ${user}`);
+};
+great("ashu");
