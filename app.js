@@ -91,7 +91,9 @@
 // };
 // sqr(5, 7);
 
-let great = function (user) {
-  console.log(`hello ${user}`);
-};
-great("ashu");
+/* another function expression example using back tic and $ symbol */
+// let great = function (user) {
+//   console.log(`hello ${user}`);
+// };
+// great("ashu");
+//
