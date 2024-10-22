@@ -24,3 +24,8 @@
 // showCallFunc(function (vrbl) {
 //   console.log(vrbl);
 // });
+
+let great = function (user) {
+  console.log(`Hello ${user}`);
+};
+great("Ankit");
