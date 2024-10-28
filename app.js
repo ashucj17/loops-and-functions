@@ -97,3 +97,13 @@
 // };
 // great("ashu");
 //
+
+let stydy = function () {
+  console.log("JS with chai and code");
+};
+stydy();
+
+function fear(sub) {
+  console.log(`${sub}, I have to finish in 8 days`);
+}
+fear("JavaScript");
