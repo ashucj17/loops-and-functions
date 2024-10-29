@@ -98,12 +98,21 @@
 // great("ashu");
 //
 
-let stydy = function () {
-  console.log("JS with chai and code");
-};
-stydy();
+// let stydy = function () {
+//   console.log("JS with chai and code");
+// };
+// stydy();
 
-function fear(sub) {
-  console.log(`${sub}, I have to finish in 8 days`);
-}
-fear("JavaScript");
+// function fear(sub) {
+//   console.log(`${sub}, I have to finish in 8 days`);
+// }
+// fear("JavaScript");
+
+let userLoggedMsg = function (user = "Ratan") {
+  if (user === undefined) {
+    console.log("please enter username");
+    return;
+  }
+  return `${user} logged in`;
+};
+console.log(userLoggedMsg("Ashish"));
