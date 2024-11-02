@@ -134,4 +134,12 @@ function userDetails(basicDetails) {
     `Employee name is ${basicDetails.name} salary is ${basicDetails.salary}`
   );
 }
-userDetails(user);
+// userDetails(user);
+userDetails({ name: "raunak", salary: 80000 });
+
+/*  Array in function */
+let myArray = [600, 500, 400, 300, 200, 100];
+function getArray(holdArray) {
+  return holdArray;
+}
+console.log(getArray(myArray));
