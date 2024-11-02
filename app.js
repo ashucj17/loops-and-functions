@@ -108,11 +108,30 @@
 // }
 // fear("JavaScript");
 
-let userLoggedMsg = function (user = "Ratan") {
-  if (user === undefined) {
-    console.log("please enter username");
-    return;
-  }
-  return `${user} logged in`;
+// let userLoggedMsg = function (user = "Ratan") {
+// if (user === undefined) {
+// console.log("please enter username");
+// return;
+// }
+// return `${user} logged in`;
+// };
+// console.log(userLoggedMsg("Ashish"));
+
+/*--------------------------------------------------------*/
+// function claculatePrices(val1, val2, val3, ...amount) {
+/* here (...) represents rest operator, it is used to club all the data in an array */
+// return amount;
+// }
+// console.log(claculatePrices(500, 400, 600, 3000, 100, 90));
+
+/* Passing objects in function */
+let user = {
+  name: "ashish",
+  salary: 750000,
 };
-console.log(userLoggedMsg("Ashish"));
+function userDetails(basicDetails) {
+  console.log(
+    `Employee name is ${basicDetails.name} salary is ${basicDetails.salary}`
+  );
+}
+userDetails(user);
