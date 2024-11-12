@@ -12,3 +12,22 @@
 //   console.log(js);
 // }
 // imp();
+
+// let a = 10;
+// const b = 20;
+// var c = 30;
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+function one() {
+  let userName = "aeni";
+
+  function two() {
+    let hobby = "shopping";
+    console.log(userName + " " + hobby);
+  }
+  two();
+  console.log(userName);
+}
+one();
