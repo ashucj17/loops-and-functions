@@ -27,3 +27,11 @@ while (index <= myArray.length) {
   console.log(myArray[index]);
   index++;
 }
+
+let i = 0;
+let sum = 0;
+while (i <= 50) {
+  sum += i;
+  console.log(`sum is ${sum}`);
+  i++;
+}
